@@ -3,4 +3,12 @@
 
     <string name="splash_titile">Skincare made\nSimple, \n Beautiful, \nAnd Effective</string>
     <string name="let_s_get_started">LET\'S GET STARTED</string>
+    <string name="welcome">Xin chào</string>
+    <string name="nameUser">User</string>
+    <string name="see_all">See all</string>
+    <string name="product">Product</string>
+    <string name="search">Search....</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
 </resources>

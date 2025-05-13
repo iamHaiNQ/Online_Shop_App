@@ -1,15 +1,14 @@
-package com.example.onlineshopapp
+package com.example.onlineshopapp.Activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.onlineshopapp.databinding.ActivitySplashBinding
+import com.uilover.project2342.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -18,8 +17,8 @@ class SplashActivity : AppCompatActivity() {
 
         binding.apply {
             startBtn.setOnClickListener {
-                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
-
+                startActivity(Intent(this@SplashActivity,
+                    MainActivity::class.java))
             }
         }
 
